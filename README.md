@@ -25,6 +25,11 @@ for file in *_*; do mv "$file" "${file//_/-}"; done
 ffmepg -h | grep aspect -B 5 -A 5
 ```
 
+## Generate Random String
+```sh
+openssl rand -hex 32
+```
+
 ## Run command for every item in a set
 ```sh
 #!/bin/bash
