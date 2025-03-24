@@ -1,0 +1,36 @@
+// personal vscode settings.json
+{
+  "editor.fontSize": 14,
+  "editor.minimap.enabled": false,
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.tips.enabled": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.navigationControl.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editor.enablePreview": false,
+  "breadcrumbs.enabled": false,
+  "security.workspace.trust.startupPrompt": "always",
+  "editor.cursorBlinking": "phase",
+  "extensions.ignoreRecommendations": true,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.tabs.hideCondition": "never",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "g",
+        "H"
+      ],
+      "commands": [
+        {
+          "command": "editor.action.showDefinitionPreviewHover"
+        }
+      ]
+    }
+  ]
+}
