@@ -1,5 +1,6 @@
 {
   "editor.fontSize": 14,
+  "window.zoomLevel": 1.1,
   "editor.minimap.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -9,7 +10,6 @@
   "workbench.navigationControl.enabled": false,
   "workbench.layoutControl.enabled": false,
   "workbench.editor.enablePreview": false,
-  "breadcrumbs.enabled": false,
   "security.workspace.trust.startupPrompt": "always",
   "editor.cursorBlinking": "phase",
   "editor.stickyScroll.enabled": false,
@@ -19,7 +19,7 @@
   "window.titleBarStyle": "custom",
   "terminal.integrated.tabs.enabled": false,
   "terminal.integrated.tabs.hideCondition": "never",
-  "workbench.colorTheme": "Default Light Modern",
+  "editor.cursorSmoothCaretAnimation": "on",
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": [
