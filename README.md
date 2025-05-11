@@ -7,7 +7,7 @@ export PS1='%* %1~ %B$%b '
 
 ## Transcode every .mov
 ```sh
-for vid in *.mov; do ffmpeg -i "$vid" -c:v libx264 -c:a aac -b:v 2M "${i%.*}.mp4"; done
+for vid in *.mov; do ffmpeg -i "$vid" -c:v libx264 -c:a aac -b:v 2M "${vid%.*}.mp4"; done
 ```
 
 ## List every .cc file
