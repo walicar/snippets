@@ -59,3 +59,8 @@ docker create --name container-name image-name # create container from image
 docker run -it image-name sh # create container from image and shell into it
 docker compose .
 ```
+
+## CloudFront cache invalidation
+```sh
+aws cloudfront create-invalidation --distribution-id <ID> --paths "/*"
+```
