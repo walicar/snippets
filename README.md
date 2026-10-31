@@ -64,3 +64,8 @@ docker compose .
 ```sh
 aws cloudfront create-invalidation --distribution-id <ID> --paths "/*"
 ```
+
+## MacOS: Enable press and hold repeating keys
+```sh
+defaults write -g ApplePressAndHoldEnabled -bool false
+```
